@@ -1,2 +1,9 @@
-https:\/\/images.dog.ceo\/breeds\/mastiff-tibetan\/n02108551_4698.jpg
+random afbeelding:
+https://dog.ceo/api/breeds/image/random
+output:
+{"message":"https:\/\/images.dog.ceo\/breeds\/ridgeback-rhodesian\/n02087394_8823.jpg","status":"success"}
+
+5 random afbeeldingen van puggle ras:
 https://dog.ceo/api/breed/puggle/images/random/5
+output:
+{"message":["https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_070809.jpg","https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_074816.jpg","https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_075427.jpg","https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_084828.jpg","https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_144409.jpg"],"status":"success"}
