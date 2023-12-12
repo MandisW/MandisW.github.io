@@ -7,3 +7,32 @@ output:
 https://dog.ceo/api/breed/puggle/images/random/5
 output:
 {"message":["https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_070809.jpg","https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_074816.jpg","https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_075427.jpg","https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_084828.jpg","https:\/\/images.dog.ceo\/breeds\/puggle\/IMG_144409.jpg"],"status":"success"}
+
+Countries API
+Meer info over Zwitserland - vind je terug hoeveel inwoners er zijn?:
+https://restcountries.com/v3.1/name/Swiss?fields=population
+ 
+Bouw een URL om een lijst van landen op te halen die een specifieke valuta gebruiken, bijvoorbeeld de Euro.
+https://restcountries.com/v3.1/currency/euro?fields=name
+Construeer een URL om informatie over landen op te halen die de opgegeven zoekterm in hun naam of bijnaam hebben.
+https://restcountries.com/v3.1/name/Swiss?fields=population
+
+
+Github API
+ Gebruik de github api om alle repo's van jezelf op te halen
+https://api.github.com/users/MandisW/repos
+
+ Haal de meest recente commits op van een specifieke repository en toon de auteur en het commit-bericht.
+ https://api.github.com/repos/MandisW/MandisW.github.io/commits
+
+ Construeer een URL om alle openbare repositories op GitHub op te halen die zijn geschreven in een specifieke programmeertaal, bijvoorbeeld Python.
+https://api.github.com/search/repositories?q=language:python
+
+Rick and Morty
+Gebruik de Rick and Morty API om een lijst met afleveringen op te halen, inclusief details zoals naam, afleveringsnummer en datum van uitzending.
+https://rickandmortyapi.com/api/episode
+
+Laat gebruikers zoeken op personage of seizoen.
+personage: https://rickandmortyapi.com/api/character/1
+seizoen: https://rickandmortyapi.com/api/episode/?episode=S01
+
